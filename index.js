@@ -12,6 +12,8 @@ const corsOptions = {
   optionSuccessStatus: 200,
 };
 
+app.use(cors(corsOptions));
+
 async function createHotels(newHotel){
   try{
     const hotel = new Hotels(newHotel)
