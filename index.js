@@ -12,30 +12,6 @@ const corsOptions = {
   optionSuccessStatus: 200,
 };
 
-// const newHotel = {
-//     "name": "Sunrise Stay Inn",
-//     "category": "Budget",
-//     "location": "8 Market Road, Old Town",
-//     "rating": 3.9,
-//     "reviews": [],
-//     "website": "https://sunrisestayinn.com",
-//     "phoneNumber": "+12104568970",
-//     "checkInTime": "12:00 PM",
-//     "checkOutTime": "11:00 AM",
-//     "amenities": ["Free Breakfast", "Laundry", "24/7 Reception"],
-//     "priceRange": "$$$ (31-60)",
-//     "reservationsNeeded": false,
-//     "isParkingAvailable": true,
-//     "isWifiAvailable": true,
-//     "isPoolAvailable": false,
-//     "isSpaAvailable": false,
-//     "isRestaurantAvailable": true,
-//     "photos": [
-//       "https://example.com/sunriseinn1.jpg",
-//       "https://example.com/sunriseinn2.jpg"
-//     ]
-//   }
-
 async function createHotels(newHotel){
   try{
     const hotel = new Hotels(newHotel)
